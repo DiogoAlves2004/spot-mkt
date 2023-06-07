@@ -1,4 +1,3 @@
-//STYLES
 import Image from 'next/image'
 import Button from '../utils/Button'
 import styles from './Skiils.module.css'
@@ -42,7 +41,7 @@ return(
         </div>
 
         <div className={styles.imageContainer}>
-            <Image src='/img/IMG - DRA APONTANDO.png' fill className={styles.image} />
+            <Image src='/img/IMG - DRA APONTANDO.png' alt='Doutora apontando para cima' fill className={styles.image} />
         </div>
 
     </section>

@@ -20,13 +20,13 @@ return(
         <div className={styles.midContent}>
 
             <div className={styles.imageContainer}>
-                <Image src='/img/IMG11.jpg' fill className={styles.image}/>
+                <Image src='/img/IMG11.jpg' alt='img 1' fill className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src='/img/IMG22.jpg' fill className={styles.image}/>
+                <Image src='/img/IMG22.jpg' alt='img 1' fill className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src='/img/IMG33.jpg' fill className={styles.image}/>
+                <Image src='/img/IMG33.jpg' alt='img 1' fill className={styles.image}/>
             </div>
 
         </div>

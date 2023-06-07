@@ -20,7 +20,7 @@ return(
                 
             <Image 
                 src="/img/logos/LOGO - IDEAL PRETA.png"
-                alt="Home Image"
+                alt="Logomarca ideal"
                 width={125}
                 height={50}
             />

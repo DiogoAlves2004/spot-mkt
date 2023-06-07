@@ -1,14 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    eslint: {
-        dirs: ["src"],
-    },
-};
+const nextConfig = {};
 
 module.exports = nextConfig
-
-module.exports = {
-  eslint: {
-    dirs: ['.']
-  }
-}
