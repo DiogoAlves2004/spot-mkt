@@ -16,15 +16,17 @@ return(
         </div>
 
         <div className={styles.content}>
+                
+                
+            <Image 
+                src="/img/logos/LOGO - IDEAL PRETA.png"
+                alt="Home Image"
+                width={125}
+                height={50}
+            />
 
             <div className={styles.textContainer}>
                 
-                <Image 
-                    src="/img/logos/LOGO - IDEAL PRETA.png"
-                    alt="Home Image"
-                    width={125}
-                    height={50}
-                />
 
                 <h1>O PLANO IDEAL</h1>
                 <h2>para cuidar da sua saúde em Belo Horizonte!</h2>
@@ -40,17 +42,16 @@ return(
                 </ul>
             </div>
 
-            <div className={styles.imageContianer}>
-                <Image 
-                    src="/img/IMG - DRA.png"
-                    alt="Doutora"
-                    fill
-                    className={styles.image}
-                />
-            </div>
-
         </div>
 
+        <div className={styles.imageContianer}>
+            <Image 
+                src="/img/IMG - DRA.png"
+                alt="Doutora"
+                fill
+                className={styles.image}
+            />
+        </div>
 
 
 
