@@ -24,7 +24,7 @@ function Quemsomos() {
           <Image
             src="/img/IMG11.jpg"
             alt="img 1"
-            fill
+            fill={true}
             className={styles.image}
           />
         </div>
@@ -32,7 +32,7 @@ function Quemsomos() {
           <Image
             src="/img/IMG22.jpg"
             alt="img 1"
-            fill
+            fill={true}
             className={styles.image}
           />
         </div>
@@ -40,7 +40,7 @@ function Quemsomos() {
           <Image
             src="/img/IMG33.jpg"
             alt="img 1"
-            fill
+            fill={true}
             className={styles.image}
           />
         </div>

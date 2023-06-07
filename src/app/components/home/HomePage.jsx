@@ -9,7 +9,7 @@ function HomePage() {
         <Image
           src="/img/BG - 1.jpg"
           alt="Home Image"
-          fill
+          fill={true}
           className={styles.image}
         />
       </div>
@@ -49,7 +49,7 @@ function HomePage() {
         <Image
           src="/img/IMG - DRA.png"
           alt="Doutora"
-          fill
+          fill={true}
           className={styles.image}
         />
       </div>

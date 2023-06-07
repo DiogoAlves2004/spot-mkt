@@ -48,7 +48,7 @@ function Skiils() {
         <Image
           src="/img/IMG - DRA APONTANDO.png"
           alt="Doutora apontando para cima"
-          fill
+          fill={true}
           className={styles.image}
         />
       </div>
