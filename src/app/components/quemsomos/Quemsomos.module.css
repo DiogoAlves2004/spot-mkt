@@ -1,110 +1,107 @@
-.mainContainer{
-
+.mainContainer {
 }
 
-.uperContent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 50px 0;
-    text-align: center;
+.uperContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+  text-align: center;
 }
 
 .uperContent h1,
-.uperContent span{
-    font-size: 2em;
-    color: #00a1e7;
+.uperContent span {
+  font-size: 2em;
+  color: #00a1e7;
 }
 
 .uperContent h1,
 .uperContent span,
 .uperContent p,
-.uperContent button{
-    margin: 10px 0;
+.uperContent button {
+  margin: 10px 0;
 }
-.uperContent p{
-    width: 50vw;
+.uperContent p {
+  width: 50vw;
 }
 
-.midContent{
-    width: 100vw;
-    display: flex;
+.midContent {
+  width: 100vw;
+  display: flex;
 }
 
 .imageContainer {
-    width: 33%;
+  width: 33%;
 }
 .imageContainer div {
-    position: unset !important;
+  position: unset !important;
 }
 
 .imageContainer .image {
-    object-fit: contain;
-    width: 100% !important;
-    position: relative !important;
-    height: unset !important;
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
 }
 
-
-.lowerContent{
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.lowerContent {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .BgContianer {
-
-    position: absolute;
-    z-index: 0;
-    height: 70vh;
-    width: 100vw;
+  position: absolute;
+  z-index: 0;
+  height: 70vh;
+  width: 100vw;
 }
 .BgContianer div {
-    position: unset !important;
+  position: unset !important;
 }
 
 .BgContianer .image {
-    height: 100% !important;
-    position: absolute !important;
+  height: 100% !important;
+  position: absolute !important;
 }
 
-.lowerTextContent{
-    position: relative;
-    z-index: 12;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+.lowerTextContent {
+  position: relative;
+  z-index: 12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
-.lowerTextContent h1{
-    font-size: 2em;
-    font-weight: lighter;
-    color: #333;
+.lowerTextContent h1 {
+  font-size: 2em;
+  font-weight: lighter;
+  color: #333;
 }
-.lowerTextContent h2{
-    font-size: 3.2em;
-    color: #00a1e7;
+.lowerTextContent h2 {
+  font-size: 3.2em;
+  color: #00a1e7;
 }
 
-@media only screen and (max-width: 600px){
-    .midContent{
-        flex-wrap: wrap;
-    }
-    .midContent .imageContainer{
-        width: 100vw !important;
-        height: 200px;
-    }
+@media only screen and (max-width: 600px) {
+  .midContent {
+    flex-wrap: wrap;
+  }
+  .midContent .imageContainer {
+    width: 100vw !important;
+    height: 200px;
+  }
 
-    .lowerContent .lowerTextContent{
-        margin-top: 25%;
-    }
-    .lowerTextContent h1{
-        font-size: 1.2em;
-    }
-    .lowerTextContent h2{
-        font-size: 1.3em;
-    }
+  .lowerContent .lowerTextContent {
+    margin-top: 25%;
+  }
+  .lowerTextContent h1 {
+    font-size: 1.2em;
+  }
+  .lowerTextContent h2 {
+    font-size: 1.3em;
+  }
 }
